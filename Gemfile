@@ -2,9 +2,7 @@
 
 source "https://rubygems.org"
 
-gemspec
-
-gem "jekyll-theme-chirpy", "~> 6.1", ">= 6.1.4"  # ✅ Add this line
+gemspec  # ✅ This already includes jekyll-theme-chirpy from .gemspec
 
 gem "html-proofer", "~> 5.0", group: :test
 
